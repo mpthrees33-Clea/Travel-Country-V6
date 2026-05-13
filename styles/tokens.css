@@ -1,0 +1,18 @@
+:root {
+  /* Space-separated RGB triplets so Tailwind opacity modifiers (e.g. bg-ink/85) work. */
+  --bg: 245 240 230;        /* cream #F5F0E6 */
+  --surface: 255 255 255;
+  --surface-2: 238 231 216; /* #EEE7D8 */
+  --ink: 26 26 26;          /* #1A1A1A */
+  --ink-muted: 74 74 74;    /* #4A4A4A */
+  --rust: 184 92 56;        /* #B85C38 */
+  --rust-dark: 152 74 45;   /* #984A2D */
+  --moss: 78 93 58;         /* #4E5D3A */
+  --rule: 217 207 184;      /* #D9CFB8 */
+
+  --font-serif: "Cormorant Garamond", "Tiempos", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  --shadow-card: 0 2px 14px -8px rgba(0, 0, 0, 0.15);
+  --shadow-card-hover: 0 8px 28px -14px rgba(0, 0, 0, 0.25);
+}

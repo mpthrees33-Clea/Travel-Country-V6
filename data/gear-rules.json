@@ -1,0 +1,88 @@
+{
+  "hike-backpack": {
+    "label": "Hike, camp, or backpack",
+    "pose": "standing",
+    "baseSlots": [
+      "boots",
+      "pack",
+      "pants",
+      "baselayer",
+      "midlayer",
+      "shell",
+      "headwear",
+      "hydration"
+    ],
+    "modifiers": {
+      "cold":     { "add": ["insulation", "gloves"] },
+      "winter":   { "add": ["insulation", "gloves"] },
+      "wet":      { "promote": ["shell"], "add": [] },
+      "hot":      { "add": ["sunglasses"], "remove": ["midlayer", "insulation"] },
+      "summer":   { "add": ["sunglasses"], "remove": ["midlayer", "insulation"] },
+      "altitude": { "add": ["insulation", "sunglasses"] },
+      "multiday": { "add": ["tent", "sleeping-bag", "sleeping-pad", "stove", "headlamp"] }
+    }
+  },
+  "climb": {
+    "label": "Rock climbing & bouldering",
+    "pose": "standing",
+    "baseSlots": [
+      "climbing-shoes",
+      "harness",
+      "helmet-climbing",
+      "chalk-bag",
+      "pants",
+      "baselayer",
+      "rope",
+      "pack"
+    ],
+    "modifiers": {
+      "cold":     { "add": ["insulation", "midlayer"] },
+      "wet":      { "add": ["shell"] },
+      "hot":      { "remove": ["midlayer"], "add": ["sunglasses"] },
+      "summer":   { "remove": ["midlayer"], "add": ["sunglasses"] },
+      "multiday": { "add": ["headlamp"] }
+    }
+  },
+  "paddle": {
+    "label": "Kayak, canoe, or SUP",
+    "pose": "kayak",
+    "baseSlots": [
+      "kayak",
+      "paddle",
+      "pfd",
+      "boots",
+      "headwear",
+      "sunglasses",
+      "hydration"
+    ],
+    "modifiers": {
+      "cold":     { "add": ["baselayer", "shell"] },
+      "wet":      { "promote": ["pfd"], "add": [] },
+      "hot":      { "remove": [] },
+      "summer":   { "remove": [] },
+      "multiday": { "add": ["pack"] }
+    }
+  },
+  "snow": {
+    "label": "Snow & cold-weather travel",
+    "pose": "skis",
+    "baseSlots": [
+      "boots",
+      "snow-pants",
+      "baselayer",
+      "midlayer",
+      "insulation",
+      "shell",
+      "gloves",
+      "headwear",
+      "sunglasses"
+    ],
+    "modifiers": {
+      "cold":     { "promote": ["insulation"], "add": [] },
+      "winter":   { "promote": ["insulation"], "add": ["parka"] },
+      "wet":      { "promote": ["shell"], "add": [] },
+      "altitude": { "add": [] },
+      "multiday": { "add": ["pack"] }
+    }
+  }
+}

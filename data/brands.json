@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "patagonia",
+    "name": "Patagonia",
+    "tagline": "Built to last. Built to make a difference.",
+    "blurb": "We carry Patagonia because they back their gear for life and put their money where their mouth is. Their R1, Nano Puff, and Torrentshell are the trifecta most of our staff lives in.",
+    "hero": "https://images.unsplash.com/photo-1551524559-8af4e6624178?w=1600&q=80"
+  },
+  {
+    "slug": "big-green-egg",
+    "name": "Big Green Egg",
+    "tagline": "The ultimate cooking experience.",
+    "blurb": "We're Central Florida's full-service BGE dealer — showroom, accessories, and free local delivery. Come taste why kamado is a different animal.",
+    "hero": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1600&q=80"
+  },
+  {
+    "slug": "hobie",
+    "name": "Hobie",
+    "tagline": "Pedal-drive freedom on Florida's waters.",
+    "blurb": "Orlando's only fully-stocked Hobie dealer. We rig, demo, and service every kayak we sell — and we'll meet you at the water.",
+    "hero": "https://images.unsplash.com/photo-1502920514313-52581002a659?w=1600&q=80"
+  },
+  {
+    "slug": "the-north-face",
+    "name": "The North Face",
+    "tagline": "Never stop exploring.",
+    "blurb": "The originator. We curate the technical pieces that earn their keep, not the logos that don't.",
+    "hero": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=1600&q=80"
+  },
+  {
+    "slug": "arcteryx",
+    "name": "Arc'teryx",
+    "tagline": "Design without compromise.",
+    "blurb": "Made in Canada, tested everywhere. If you've ever held a Beta jacket in your hands, you understand.",
+    "hero": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=1600&q=80"
+  },
+  {
+    "slug": "osprey",
+    "name": "Osprey",
+    "tagline": "Carry the world.",
+    "blurb": "All Mighty Guarantee — they'll fix anything they ever made. The pack people we trust on every multi-day.",
+    "hero": "https://images.unsplash.com/photo-1581791534100-5e8b1de63b18?w=1600&q=80"
+  }
+]

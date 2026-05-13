@@ -1,0 +1,57 @@
+@import "./tokens.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: rgb(var(--bg));
+    color: rgb(var(--ink));
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background: rgb(var(--bg));
+    color: rgb(var(--ink));
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+    font-weight: 500;
+  }
+  h1 { font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: 1.05; }
+  h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); line-height: 1.1; }
+  h3 { font-size: 1.3rem; line-height: 1.2; }
+  a { color: inherit; }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-page px-5 md:px-8;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-3 font-medium uppercase tracking-wider text-[12px] transition-colors;
+  }
+  .btn-primary {
+    @apply bg-rust text-white;
+  }
+  .btn-primary:hover {
+    @apply bg-rust-dark;
+  }
+  .btn-ghost {
+    @apply border border-rule text-ink;
+  }
+  .btn-ghost:hover {
+    @apply bg-surface-2;
+  }
+  .product-card {
+    @apply block bg-surface transition-shadow;
+    box-shadow: var(--shadow-card);
+  }
+  .product-card:hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+  .eyebrow {
+    @apply uppercase tracking-[0.18em] text-[11px] text-ink-muted;
+  }
+}
